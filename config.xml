@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <hudson>
   <disabledAdministrativeMonitors/>
-  <version>1.656</version>
-  <numExecutors>2</numExecutors>
+  <version>1.565.3</version>
+  <numExecutors>0</numExecutors>
   <mode>NORMAL</mode>
   <useSecurity>true</useSecurity>
   <authorizationStrategy class="hudson.security.FullControlOnceLoggedInAuthorizationStrategy"/>
@@ -27,10 +27,10 @@
       <role>*</role>
       <slavesUser></slavesUser>
       <credentialsId></credentialsId>
-      <checkpoint>false</checkpoint>
+      <checkpoint>true</checkpoint>
       <onDemandRegistration>false</onDemandRegistration>
       <jenkinsURL></jenkinsURL>
-      <declineOfferDuration>600000</declineOfferDuration>
+      <declineOfferDuration>6000</declineOfferDuration>
       <slaveInfos>
         <org.jenkinsci.plugins.mesos.MesosSlaveInfo>
           <slaveCpus>0.1</slaveCpus>
